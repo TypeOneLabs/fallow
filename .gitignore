@@ -1,5 +1,9 @@
+# Build output. The module is named fallow, so `go build` drops the binary here;
+# `go build -o fallow-bin` and friends land alongside it.
 /fallow
+/fallow-*
 *.test
 *.out
 .DS_Store
 graphify-out/
+fallow-out/
